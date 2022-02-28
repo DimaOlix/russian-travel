@@ -1,0 +1,17 @@
+.cover {
+  max-height: 740px;
+  margin: 92px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1184px);
+  grid-template-rows: repeat(2, minmax(0, 370));
+  justify-items: center;
+  align-items: center;
+
+  background-image: url(../cover/images/__background.jpg);
+  background-size: cover;
+}
+
+.cover:hover::before {
+  background-image: url(../cover/images/__overlay.jpg);
+  opacity: .5;
+}

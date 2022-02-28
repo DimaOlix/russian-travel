@@ -1,0 +1,9 @@
+.intro {
+  max-width: 984px;
+  padding-top: 92px;
+  color: #fff;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: minmax(0, 690px) minmax(0, 294px);
+  align-self: flex-start;
+}

@@ -1,0 +1,6 @@
+.lead__image-girl {
+  max-width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+  object-fit: cover;
+}
