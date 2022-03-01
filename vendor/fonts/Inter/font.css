@@ -1,8 +1,8 @@
 @font-face {
-  src: url(./Inter-Light.woff)format('woff');
-  src: url(./Inter-Light.woff2)format('woff2');
-  src: url(./Inter-Light.ttf)format('truetype');
-  font-family:'Inter-Light';
+  src: url(./Inter-Regular.woff)format('woff');
+  src: url(./Inter-Regular.woff2)format('woff2');
+  src: url(./Inter-Regular.ttf)format('truetype');
+  font-family:'Inter-Regular';
 }
 
 @font-face {
@@ -11,14 +11,6 @@
   src: url(./Inter-Italic.ttf)format('truetype');
   font-style: italic;
   font-family:'Inter-Italic';
-}
-
-@font-face {
-  src: url(./Inter-BlackItalic.woff)format('woff');
-  src: url(./Inter-BlackItalic.woff2)format('woff2');
-  src: url(./Inter-BlackItalic.ttf)format('truetype');
-  font-style: italic;
-  font-family:'Inter-BlackItalic';
 }
 
 @font-face {

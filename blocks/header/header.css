@@ -3,7 +3,8 @@
   margin: 0;
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto min-content min-content;
+  column-gap: 18px;
   align-items: center;
   grid-template-rows: 52px;
 
