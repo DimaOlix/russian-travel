@@ -5,3 +5,9 @@
   margin: 0 0 33px;
   grid-column: 1;
 }
+
+@media all and (max-width: 320px) {
+  .intro__text {
+    margin: 0 0 34px;
+  }
+}

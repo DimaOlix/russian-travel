@@ -1,10 +1,10 @@
 .footer__link {
   color: #fff;
+  width: 100%;
   text-decoration: none;
-  margin: 0;
+  margin: 0 18px 0 0;
   font-size: 16px;
   line-height: 1.12;
-  cursor: url(../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
 }
 
 .footer__link:hover {

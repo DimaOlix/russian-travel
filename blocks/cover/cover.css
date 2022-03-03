@@ -1,7 +1,8 @@
 .cover {
   max-width: 1184px;
-  height: 740px;
-  margin: 92px 0;
+  height: calc((100vw - 96px) * 0.625);
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -12,7 +13,6 @@
   background-size: cover;
   position: relative;
   z-index: 1;
-  cursor: url(../images/Imported\ Layers\ Copy\ 4.svg), pointer;
 }
 
 .cover::before {
@@ -28,4 +28,10 @@
 
 .cover:hover::before {
   opacity: .8;
+}
+
+@media all and (max-width: 1024px) {
+  .cover {
+    height: calc((100vw - 96px) * 0.625);
+ }
 }

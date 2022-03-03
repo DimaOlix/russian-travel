@@ -1,9 +1,18 @@
 .footer {
+  max-width: 1184px;
   width: 100%;
-  justify-self: center;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-items: end;
-  align-items: center;
+  box-sizing: border-box;
+  padding: 92px 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+@media all and (max-width: 320px) {
+  .footer {
+    display:grid;
+    grid-auto-flow: row;
+    padding: 48px 0 0;
+
+  }
 }

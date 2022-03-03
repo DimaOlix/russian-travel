@@ -4,4 +4,19 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+  grid-row: 2;
+}
+
+@media all and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 32px 0 56px;
+  }
+}
+
+@media all and (max-width: 680px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px 0 40px;
+  }
 }

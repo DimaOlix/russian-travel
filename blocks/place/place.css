@@ -1,9 +1,33 @@
 .place {
   max-width: 984px;
-  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 80px;
   display: grid;
-  grid-template-columns: min-content auto;
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  'title url'
+  'img paragraf';
   column-gap: 40px;
   row-gap: 48px;
+}
+
+@media all and (max-width: 1024px) {
+  .place {
+    margin-bottom: 73px;
+  }
+}
+
+@media all and (max-width: 430px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    'title'
+    'url'
+    'img'
+    'paragraf';
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
 }

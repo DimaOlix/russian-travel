@@ -1,6 +1,0 @@
-.lead__images {
-  display: grid;
-  grid-template-columns: minmax(320px, 984px);
-  grid-template-rows: auto auto;
-  justify-items: stretch;
-}
