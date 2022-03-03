@@ -1,3 +1,11 @@
 .place__website {
+  box-sizing: border-box;
+  align-self: end;
   grid-area: url;
+}
+
+@media all and (max-width: 320px) {
+  .place__website {
+    padding: 0 16px;
+  }
 }

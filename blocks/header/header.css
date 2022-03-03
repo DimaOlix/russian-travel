@@ -1,10 +1,17 @@
 .header {
   color: white;
   margin: 0;
+  box-sizing: border-box;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 1fr min-content min-content;
   align-items: center;
+}
+
+@media all and (max-width: 1024px) {
+  .header {
+    padding: 0 48px;  
+  }
 }
 
 @media all and (max-width: 768px) {

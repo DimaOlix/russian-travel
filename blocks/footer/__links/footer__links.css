@@ -9,11 +9,16 @@
   
 }
 
+@media all and (max-width: 615px) {
+  .footer__links {
+    padding: 0 0 48px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer__links {
     display:grid;
     grid-auto-flow: row;
-    padding: 0 0 48px;
-
+    row-gap: 32px;
   }
 }

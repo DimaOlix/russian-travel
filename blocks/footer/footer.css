@@ -8,11 +8,22 @@
   flex-wrap: wrap;
 }
 
+@media all and (max-width: 1024px) {
+  .footer {
+    padding: 0 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer {
     display:grid;
     grid-auto-flow: row;
     padding: 48px 0 0;
-
   }
 }

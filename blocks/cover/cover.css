@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  height: calc((100vw - 96px) * 0.625);
+  /* min-height: calc((100vw - 96px) * 0.625); */
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -30,8 +30,26 @@
   opacity: .8;
 }
 
+@media all and (max-width: 1280px) {
+  .cover {
+    min-height: 740px;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .cover {
-    height: calc((100vw - 96px) * 0.625);
+    min-height: 640px;   
  }
+}
+
+@media all and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
 }
