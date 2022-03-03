@@ -4,11 +4,8 @@
   padding-top: 92px;
   padding-left: 100px;
   color: #fff;
-  align-self: center;
-  justify-self: center;
   display: grid;
   grid-template-columns: minmax(0, 690px) minmax(0, 294px);
-  align-self: flex-start;
 }
 
 @media all and (max-width: 1024px) {
