@@ -1,6 +1,5 @@
 .cover {
   max-width: 1184px;
-  /* min-height: calc((100vw - 96px) * 0.625); */
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -9,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../cover/images/__background.jpg);
+  background-image: url(../../images/__background.jpg);
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -39,7 +38,7 @@
 @media all and (max-width: 1024px) {
   .cover {
     min-height: 640px;   
- }
+  }
 }
 
 @media all and (max-width: 768px) {
